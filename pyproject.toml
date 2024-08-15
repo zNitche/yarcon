@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==70.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yarcon"
+version = "0.0.0"
+authors = [
+  { name = "zNitche" },
+]
+description = "yet another RCON implementation"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/zNitche/yarcon"
+Issues = "https://github.com/zNitche/yarcon/issues"
